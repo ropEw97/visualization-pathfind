@@ -1,0 +1,26 @@
+Slučaj pokretanje algoritma
+
+Kratak opis: Korisnik pritiskom na boks sa algoritmima bira algoritam pretrage koji će se izvršavati. Nakon toga počinje izvršavanje zadatog algoritma.
+Akteri: Korisnik.
+Preduslovi: Izabrani su početak i cilj. Aplikacija je pokrenuta. 
+Postuslovi: Prikazani svi putevi razmatrani u toku pretrage i posebno naznačen najkraći put od početka do cilja.
+Osnovni tok:
+    1. Korisnik bira algoritam iz boksa "Algorithm".
+    2. Aplikacija proverava da li su na mapi postavljene oznake za početak i cilj.
+        2.1.1. Aplikacija prikazuje poruku da je potrebno postaviti oznake za početak i cilj.
+        2.1.2. Prelazi se na korak 7.
+    3. Dohvataju se informacije o mapi.
+    4. Aplikacija pokreće odgovarajući algoritam.
+    5. Sve dok traje pretraga(dok se ne stigne do cilja):
+        5.1. Aplikacija čuva informacije o putu koji prelazi.
+        5.2. Čuva informaciju o najkraćem putu.
+    6. Iscrtavaju se svi obiđeni putevi, a najkraći put se posebno označava.
+    7. Aplikacija čeka na sledeću komandu korisnika.
+
+Alternativni tokovi:
+    A1: Neočekivani izlaz iz aplikacije. Ukoliko u bilo kojem toraku korisnik isključi aplikaciju, sva eventualno zapamćena podešavanja na sceni se poništavaju i aplikacija završava rad. Slučaj upotrebe se završava.
+    A2: Prepreke su tako postavljene da je nemoguće naći put od početka do cilja.
+    
+Podtokovi:/
+Specijalni zahtevi:/ 
+Dodatne informacije:/

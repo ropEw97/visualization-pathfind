@@ -1,0 +1,55 @@
+\hypertarget{classPath}{}\doxysection{Path Class Reference}
+\label{classPath}\index{Path@{Path}}
+
+
+Inheritance diagram for Path\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classPath__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Path\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classPath__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPath_a162415663d61351f81b864420eb882db}\label{classPath_a162415663d61351f81b864420eb882db}} 
+void {\bfseries path\+Finished\+Drawing} (Path\+Type type)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPath_a41b20b3fed7d0dae191383deb317ab8b}\label{classPath_a41b20b3fed7d0dae191383deb317ab8b}} 
+{\bfseries Path} (const std\+::vector$<$ \mbox{\hyperlink{classNode}{Node}} $>$ \&path, Path\+Type type, int speed=path\+\_\+speed, int index=0, QGraphics\+Item $\ast$parent=nullptr)
+\item 
+\mbox{\Hypertarget{classPath_a2261635632f13fabc5a6d296cb3e6bf8}\label{classPath_a2261635632f13fabc5a6d296cb3e6bf8}} 
+void {\bfseries draw\+Next} ()
+\item 
+\mbox{\Hypertarget{classPath_a1770ec0d2fe9e99d8168e56d8d5d5aab}\label{classPath_a1770ec0d2fe9e99d8168e56d8d5d5aab}} 
+QRectF {\bfseries bounding\+Rect} () const
+\item 
+\mbox{\Hypertarget{classPath_aad5ccdd5bfc4a8dc9d0d11b966531d2b}\label{classPath_aad5ccdd5bfc4a8dc9d0d11b966531d2b}} 
+void {\bfseries paint} (QPainter $\ast$painter, const QStyle\+Option\+Graphics\+Item $\ast$option, QWidget $\ast$widget)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPath_a7ced8de5fc8a7f0e8eaeea46e12a9763}\label{classPath_a7ced8de5fc8a7f0e8eaeea46e12a9763}} 
+static const int {\bfseries path\+\_\+speed} = 20
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Path.\+h\item 
+src/Path.\+cpp\end{DoxyCompactItemize}

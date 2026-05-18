@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classPathFindingAlgorithm.html" title=" " alt="" coords="5,81,167,108"/>
+<area shape="rect" id="node2" href="$classAstar.html" title=" " alt="" coords="259,5,315,32"/>
+<area shape="rect" id="node3" href="$classBreadthFirstSearch.html" title=" " alt="" coords="215,56,360,83"/>
+<area shape="rect" id="node4" href="$classDepthFirstSearch.html" title=" " alt="" coords="221,107,354,133"/>
+<area shape="rect" id="node5" href="$classDijkstra.html" title=" " alt="" coords="251,157,324,184"/>
+</map>

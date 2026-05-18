@@ -1,0 +1,19 @@
+Pozicioniranje starta
+
+Kratak opis: Korisnik vri pozicioniranje starta pritiskom na dugme start iz glavnog menija,
+a onda i pomeranjem nacrtanog starta na sceni pomoću miša.
+Akteri: Korisnik.
+Preduslovi: Aplikacija je pokrenuta.
+Postuslovi: Start je pozicioniran na sceni.
+Osnovni tok: 
+	1. Korisnik bira dugme "Start" iz glavnog menija.
+	2. Poziva se metod klase Canvas za crtanje starta.
+	3. Korisnik pomera start na eljeno mesto na sceni.
+	4. Poziva se metod klase Canvas koji pamti poziciju starta.
+
+Alternativni tokovi: 
+	A1: Neoekivani izlaz iz aplikacije. Ukoliko u bilo kojem koraku korisnik iskljui aplikaciju, sva eventualno zapamena podeavanja na sceni se ponitavaju i aplikacija zavrava rad. Sluaj upotrebe se zavrava.
+
+Podtokovi:/
+Specijalni zahtevi:/
+Dodatne informacije:/

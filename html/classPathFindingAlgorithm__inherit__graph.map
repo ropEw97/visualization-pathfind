@@ -1,0 +1,7 @@
+<map id="PathFindingAlgorithm" name="PathFindingAlgorithm">
+<area shape="rect" id="node1" title=" " alt="" coords="159,5,321,32"/>
+<area shape="rect" id="node2" href="$classAstar.html" title=" " alt="" coords="5,80,61,107"/>
+<area shape="rect" id="node3" href="$classBreadthFirstSearch.html" title=" " alt="" coords="86,80,231,107"/>
+<area shape="rect" id="node4" href="$classDepthFirstSearch.html" title=" " alt="" coords="256,80,389,107"/>
+<area shape="rect" id="node5" href="$classDijkstra.html" title=" " alt="" coords="414,80,487,107"/>
+</map>

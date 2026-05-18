@@ -1,0 +1,19 @@
+Generisanje lavirinta
+Kratak opis: Korisnik pritiskom na dugme lavirint pokrece algoritam koji generise lavirint i iscrtava ga na scenu.
+Akteri: Korisnik.
+Preduslovi: Aplikacija je pokrenuta.
+Postuslovi: Algoritam je izgenerisao prepreke na sceni i pozicionirao start i cilj.
+Osnovni tok: 
+	1. Igrac bira dugme "Lavirint" iz glavnog menija.
+	2. Poziva se metod klase Canvas za ciscenje scene.
+	3. Poziva se metod klase Canvas za generisanje lavirinta.
+		3.1. Pokrece se algoritam za generisanje lavirinta.
+		3.2. Iscrtavanu se prepreke.
+		3.3. Pozicioniraju se start i cilj na prvo slobodno mesto.
+
+Alternativni tokovi: 
+	A1: Neocekivani izlaz iz aplikacije. Ukoliko u bilo kojem toraku korisnik iskljuci aplikaciju, sva eventualno zapamcenja podesavanja na msceni se ponistavaju i aplikacija zavrsava rad. Slucaj upotrebe se zavrsava.
+
+Podtokovi:/
+Specijalni zahtevi:/
+Dodatne informacije:/

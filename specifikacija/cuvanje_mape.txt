@@ -1,0 +1,39 @@
+Slučaj upotrebe: Čuvanje mape
+
+Kratak opis: Korisnik bira opciju za čuvanje mape.
+Aplikacija informacije o trenutnoj konfiguraciji mape upisuje u datoteku na disku.
+Trenutno stanje mape je nakon toga zapamćeno i može se ponovo učitati iz datoteke.
+
+Akteri:
+  - Korisnik
+
+Preduslovi: Aplikacija je pokrenuta i čeka na sledeću komandu korisnika.
+
+Postuslovi: Stanje mape je trajno sačuvano u datoteci ili je prikazana poruka o grešci.
+
+Osnovni tok:
+  1. Korisnik bira dugme "Save map".
+  2. Aplikacija proverava da li su na mapi postavljene oznake za početak i cilj.
+    2.1. Ukoliko oznake za početak i cilj nisu postavljene potrebno je obavestiti korisnika.
+      2.1.1. Aplikacija prikazuje poruku da je potrebno postaviti oznake za početak i cilj.
+      2.1.2. Prelazi se na korak 7.
+  3. Aplikacija dohvata informacije o trenutno postavljenim objektima na mapi.
+  4. Aplikacija prikazuje dijalog za čuvanje nove datoteke.
+    4.1. Korisnik bira ime nove datoteke u kojoj će biti sačuvana mapa.
+      4.1.1. Ukoliko već postoji datoteka sa datim imenom korisnik može izabrati da prepiše nove podatke preko nje.
+    4.2. Ukoliko korisnik zatvori dijalog bez biranja datoteke:
+      4.2.1. Prelazi se na korak 7.
+  5. Aplikacija upisuje informacije o mapi u datoteku.
+  6. Aplikacija prikazuje poruku da je mapa uspešno sačuvana.
+  7. Aplikacija čeka na sledeću komandu korisnika.
+
+Alternativni tokovi:
+  - A1: Greška pri pisanju u datoteku. Ukoliko za vreme koraka 5 dođe do greške, mapa neće
+  biti sačuvana. Aplikacija će nastaviti rad od koraka 7. 
+
+Podtokovi: /
+
+Specijalni zahtevi: /
+
+Dodatne informacije: Aplikacija u datoteci za svaku oznaku sa mape čuva poziciju na mapi
+i tip oznake.
